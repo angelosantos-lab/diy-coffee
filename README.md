@@ -1,6 +1,6 @@
 # DIY Coffee: Do It Yourself!
 
-An interactive, mobile-responsive front-end e-commerce website inspired by viral convenience-store café drink hacks across the Philippines. Built for **CCS0027/L – Web Design and Client-Side Scripting** (1st Term, AY 2026–2027).
+An interactive, mobile-responsive front-end e-commerce website inspired by viral convenience-store café drink hacks across the Philippines. 
 
 ## Live Links
 * **Live Website (GitHub Pages):** `https://[angelosantos-lab].github.io/diy-coffee/`
