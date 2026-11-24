@@ -16,16 +16,14 @@ An interactive, mobile-responsive front-end e-commerce website inspired by viral
 ## Pages & Features
 1. **Homepage (`index.html`):**
    * Sticky navigation bar, full-width coffee bean hero banner, collaborated brand highlights, featured "All-Time Faves" drink cards, and business overview.
-2. **Product Catalog (`product-catalog.html`):**
+2. **Product Catalog (`Drink Catalog.html`):**
    * Responsive 5-column product grid showcasing full uncropped drink cups, prices, and descriptions.
    * **JavaScript Live Search & Category Filter:** Filter drinks by *All*, *Coffee-Based*, *Non-Coffee*, or *Floats*, or search recipes in real time.
    * **JavaScript Interactive Cart:** Add drinks, adjust quantities, remove items, calculate totals in `₱`, and trigger a simulated checkout confirmation.
-3. **About Us (`about-us.html`):**
+3. **About Us (`About Us.html`):**
    * Brand story, core values, 3-step visual preparation guide, and team credits.
    * **JavaScript DIY Savings Calculator:** Interactive range slider calculating monthly peso savings when switching from ₱175 café drinks to ₱60 DIY Coffee drinks.
-4. **Contact Us (`contact-us.html`):**
-   * Business contact details, social media links, and an accessible inquiry form.
-   * **JavaScript Form Validation:** Validates required fields, minimum character lengths, and email formatting with specific inline error messages and a simulated confirmation alert.
+
 
 ---
 
@@ -33,9 +31,8 @@ An interactive, mobile-responsive front-end e-commerce website inspired by viral
 ```text
 diy-coffee/
 ├── index.html
-├── product-catalog.html
-├── about-us.html
-├── contact-us.html
+├── Drink Catalog.html
+├── About Us.html
 ├── README.md
 ├── css/
 │   ├── bootstrap.min.css
@@ -45,7 +42,7 @@ diy-coffee/
 │   ├── bootstrap.bundle.min.js
 │   └── main.js
 └── images/
-    ├── logo.png
+    ├── diy-coffee-logo.png
     ├── coffee-bean-background.jpg
     └── (product and brand images)
 ```
