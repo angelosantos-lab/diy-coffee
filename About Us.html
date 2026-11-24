@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIY Coffee Do It Yourself!</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Consistent Header & Navigation -->
+    <header>
+        <a href="index.html" class="logo-container">
+            <img src="images/diy-coffee-logo.png" alt="DIY Coffee's Logo" class="logo-img">
+            <span class="logo-text">DIY Coffee, Do It Yourself!</span>
+        </a>
+        <nav aria-label="Main Navigation">
+            <a href="index.html">Home</a>
+            <a href="#categories">Categories</a>
+            <a href="#featured">Featured</a>
+            <a href="About Us.html">About Us</a>
+            <a href="#contact">Contact Us</a>
+            <a href="Drink Catalog.html">Drink Catalog</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Title Banner -->
+        <section class="bg-green-section text-white text-center py-5 px-3">
+            <div class="container">
+                <h1 class="display-5 fw-bold mb-2">About DIY Coffee</h1>
+                <p class="lead mx-auto mb-0" style="max-width: 650px;">
+                    Born from internet culture—bringing affordable, convenience-store café hacks straight to your cup.
+                </p>
+            </div>
+        </section>
+
+        <!-- Our Story & Core Values -->
+        <section class="container py-5">
+            <div class="row g-4 align-items-center">
+                <div class="col-12 col-lg-7">
+                    <h2 class="fw-bold mb-3">Our Story</h2>
+                    <p>
+                        <strong>DIY Coffee</strong> started with a simple idea: you shouldn't have to spend ₱180+ at a specialty café just to enjoy an iced mocha, caramel oat latte, or choco float. Inspired by viral convenience-store drink hacks across the Philippines, we curate easy-to-follow recipes using everyday items from 7-Eleven, Milo, Nescafé, Kopiko, and Oatside.
+                    </p>
+                    <p class="mb-0">
+                        Whether you're pulling an all-nighter for finals or craving a sweet afternoon pick-me-up, we put the power of being your own barista directly into your hands.
+                    </p>
+               </div>
+            </div>
+        </section>
+
+        <!-- How It Works (3 Steps) -->
+        <section class="bg-light py-5">
+            <div class="container text-center">
+                <h2 class="fw-bold mb-4">How DIY Coffee Works</h2>
+                <div class="row g-4">
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 p-4 shadow-sm border-0">
+                            <div class="display-6 fw-bold text-success mb-2">01</div>
+                            <h3 class="h5 fw-bold">Grab Your Base</h3>
+                            <p class="text-muted mb-0">Pick up a classic 7-Eleven Ice Cup and your favorite ready-to-drink coffee or milk.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 p-4 shadow-sm border-0">
+                            <div class="display-6 fw-bold text-success mb-2">02</div>
+                            <h3 class="h5 fw-bold">Mix & Customize</h3>
+                            <p class="text-muted mb-0">Pour, stir, and layer your ingredients—add caramel syrup, oat milk, or a soft-serve cone.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 p-4 shadow-sm border-0">
+                            <div class="display-6 fw-bold text-success mb-2">03</div>
+                            <h3 class="h5 fw-bold">Sip & Save</h3>
+                            <p class="text-muted mb-0">Enjoy a café-worthy drink in under 2 minutes for less than half the price of a coffee shop.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive JavaScript Feature: Café vs. DIY Savings Calculator -->
+        <section class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-8">
+                    <div class="card shadow-sm p-4 border-success">
+                        <h2 class="h4 fw-bold text-center mb-2">DIY Coffee Savings Calculator</h2>
+                        <p class="text-muted text-center mb-4">
+                            See how much money you save every month by switching from a ₱175 café drink to a ₱60 DIY Coffee!
+                        </p>
+
+                        <div class="mb-3">
+                            <label for="cupsPerWeek" class="form-label fw-bold">
+                                How many iced coffees do you buy per week? <span id="cupsDisplay" class="badge bg-success fs-6">3 cups</span>
+                            </label>
+                            <input type="range" class="form-range" id="cupsPerWeek" min="1" max="14" value="3">
+                        </div>
+
+                        <div class="row text-center g-3 mt-2">
+                            <div class="col-12 col-md-4">
+                                <div class="p-3 bg-light rounded">
+                                    <small class="text-muted d-block">Monthly Café Cost</small>
+                                    <strong class="fs-5 text-danger" id="cafeCost">₱2,100</strong>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="p-3 bg-light rounded">
+                                    <small class="text-muted d-block">Monthly DIY Cost</small>
+                                    <strong class="fs-5 text-success" id="diyCost">₱720</strong>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="p-3 bg-green-section text-white rounded">
+                                    <small class="d-block">Your Monthly Savings</small>
+                                    <strong class="fs-4" id="monthlySavings">₱1,380</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container pb-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-lg-8">
+            <div class="about-box shadow-sm">
+                <h3 class="h4 fw-bold mb-3">Why DIY Coffee?</h3>
+                <ul class="list-unstyled mb-0 fs-5">
+                    <li class="mb-2">&#10003; 100% Accessible</li>
+                    <li class="mb-2">&#10003; 100% Easy Blending</li>
+                    <li>&#10003; 100% Budget-Friendly</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <footer>
+        <p>Do It Yourself Coffee. All Rights Reserved.</p>
+        <p>Contact: ilovecoffee@gmail.com | Phone: +63 123 456 7890</p>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/Product Catalog.js" defer></script>
+</body>
+</html>
